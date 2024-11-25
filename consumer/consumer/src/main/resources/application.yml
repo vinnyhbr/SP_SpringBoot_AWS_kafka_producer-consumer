@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer:
+      group-id: my-group
+      auto-offset-reset: earliest
+logging:
+  file:
+    path: /app/logs/consumer-service.log
